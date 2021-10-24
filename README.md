@@ -28,6 +28,8 @@ We refactor the code from our previous project using the clean movie function. N
 
 In our final steps we loaded our DataFrames into a SQL Database. We were able to scrape in data and develop a user friendly analysis for the hackathon. Amazing Prime will be able to put on a successful event and Britta will be proud of our hard work. In the end we developed efficient code that will be useful in keeping up with changing data. The steps taken to clean the data will be useful for many futre events.
 
+### Loading Data into SQL Database
+
 <img width="737" alt="movies_query" src="https://user-images.githubusercontent.com/88467263/138615500-188532ff-7a74-48b6-af9e-336b7967c981.PNG">
 
 <img width="298" alt="ratings_query" src="https://user-images.githubusercontent.com/88467263/138615503-dc5ebf31-13e5-4cac-a7fa-aaa2b4dc6ef4.PNG">
