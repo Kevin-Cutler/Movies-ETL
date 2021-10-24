@@ -13,7 +13,7 @@ ____________________________________________________________
 We start by creating a function to load in the Wikipedia data, Kaggle Metadata, and the MovieLens Rating Data. We create three data frames from each data source to be cleaned.
 
 
-Function to read the three filesPNG
+<img width="499" alt="Function to read the three filesPNG" src="https://user-images.githubusercontent.com/88467263/138615486-46dc4e12-d958-4850-b9b4-269bb4a8cd54.PNG">
 
 
 
@@ -22,12 +22,12 @@ ____________________________________________________________________
 
 We refactor the code from our previous project using the clean movie function. Next we read in the three data files and using list comprehension we filter out TV shows from the Wiki Movies file. We used try and except function with regular expressions to catch errors while working with the IMDB IDs. We used list comprehension to remove duplicates and null values and create our cleaned up dataframe from list. We consolidated the data columns from almost 200 to 21 useful columns to be loaded into our SWL Database. We formatted our release dates, budgets and various column data before loading into our SQL database.
 
-ETL_clean_wiki_movies PNG
+<img width="433" alt="ETL_clean_wiki_movies" src="https://user-images.githubusercontent.com/88467263/138615492-cab7e44e-e6da-4608-b7f9-a53ecce81b92.PNG">
 
 
 
 In our final steps we loaded our DataFrames into a SQL Database. We were able to scrape in data and develop a user friendly analysis for the hackathon. Amazing Prime will be able to put on a successful event and Britta will be proud of our hard work. In the end we developed efficient code that will be useful in keeping up with changing data. The steps taken to clean the data will be useful for many futre events.
 
-movies_query PNG
+<img width="737" alt="movies_query" src="https://user-images.githubusercontent.com/88467263/138615500-188532ff-7a74-48b6-af9e-336b7967c981.PNG">
 
-ratings_query
+<img width="298" alt="ratings_query" src="https://user-images.githubusercontent.com/88467263/138615503-dc5ebf31-13e5-4cac-a7fa-aaa2b4dc6ef4.PNG">
